@@ -1,0 +1,21 @@
+.product{
+    display:flex;
+    flex-direction:column;
+    padding:0.5rem;
+    width:275px;
+    max-height: 250px;
+    margin:2rem;
+    border: 1.5px solid black;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 0px 10px 10px;
+}
+
+.delete-checkbox{
+    width:15px;
+    height: 15px;
+}
+
+.product h6{
+    margin: 10px;
+    font-weight: 600;
+    font-size: 15px;
+}
