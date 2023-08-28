@@ -34,7 +34,7 @@ function AddProduct() {
         size: size ?? undefined,
         weight: weight ?? undefined 
       })
-      if(status === 201 && data.id != 0 ){
+      if(status === 201 && data.id !== 0 ){
         navigate('/')
       }else{
         setErrors(['Error while uploading... \n check your netwotk\n SKU may be used before'])
