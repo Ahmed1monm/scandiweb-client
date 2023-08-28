@@ -18,7 +18,7 @@ export const Product = ({productData, setCheck}) => {
                             {["weight", "dimensions", "size"].includes(key) ? `${key}: ${value} ${units[key]}`:key === 'price'? `${value} $`: `${value}`}
                         </h6>
                     );
-                }
+                } return ''
             })}
         </div>
     );
